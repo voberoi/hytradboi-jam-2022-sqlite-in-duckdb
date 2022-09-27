@@ -1,5 +1,5 @@
 [package]
-name = "hytradboi-jam-2022-sqlite-in-duckdb"
+name = "sqlite_blob_duckdb_extension"
 version = "0.1.0"
 edition = "2021"
 

@@ -63,14 +63,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hytradboi-jam-2022-sqlite-in-duckdb"
-version = "0.1.0"
-dependencies = [
- "cxx",
- "cxx-build",
-]
-
-[[package]]
 name = "link-cplusplus"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -108,6 +100,14 @@ name = "scratch"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c8132065adcfd6e02db789d9285a0deb2f3fcb04002865ab67d5fb103533898"
+
+[[package]]
+name = "sqlite_blob_duckdb_extension"
+version = "0.1.0"
+dependencies = [
+ "cxx",
+ "cxx-build",
+]
 
 [[package]]
 name = "syn"
