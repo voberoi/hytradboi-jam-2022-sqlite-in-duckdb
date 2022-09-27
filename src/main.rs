@@ -23,9 +23,4 @@ pub extern "C" fn sqlite_blob_duckdb_extension_version() -> *const c_char {
     ptr
 }
 
-fn main() {
-    let _funcs: &[*const extern "C" fn()] = &[
-        sqlite_blob_duckdb_extension_init as _,
-        sqlite_blob_duckdb_extension_version as _,
-    ];
-}
+fn main() {}
